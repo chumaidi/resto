@@ -1,0 +1,102 @@
+/* css ingridients */
+.backgroundimage {
+    background-image: url(../images/pasta1.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin-top: 5px;
+    height: 30%;
+    width: 30%;
+}
+
+.centercontent .title {
+    font-family: 'Bitter', serif;
+    font-size: 70px;
+}
+
+/* just the right food */
+
+.backgroundimage2 {
+    background-image: url(../images/foodonplate11.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 40px;
+}
+.p2 {
+    padding-right: 40px;
+}
+
+/* fine ingredients */
+
+.backgroundimage3 {
+    background-image: url(../images/ingredients1.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(98, 105, 107);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+}
+
+.backgroundimage3 .centercontent {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+/* menu */
+
+.card-columns {
+    column-count: 2;
+}
+
+.title {
+    font-size: 24px;
+    color: #dcb334;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.centercontent {
+    text-align: center;
+}
+
+
+
+/* guest review */
+
+
+/* just the right food */
+
+/* footer */
+.footer {
+    min-height: 100%;
+    overflow:  auto;
+    padding-bottom: 100px;
+    position: relative;
+    
+}
